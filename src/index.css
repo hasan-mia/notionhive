@@ -5,9 +5,23 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* =====all icon==== */
+.call{
+  display:block;
+  height:20px;
+  color:white;
+  text-decoration:none;
+  padding-left:20px;
+}
+.call:before{
+  content: '';
+  background:url('../src/Frontend/assets/icon/call.svg');
+  background-size:cover;
+      position:absolute;
+  width:20px;
+  height:20px;
+  margin-left:-2vw;
 }

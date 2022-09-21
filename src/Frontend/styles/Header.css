@@ -1,0 +1,14 @@
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: #EA4715;
+}
+
+@media only screen and (min-width: 768px) {
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        position: absolute;
+        width: 100vw;
+        left: -33.3rem;
+        border: 1px solid #f5efef;
+        border-radius: 0;
+    }
+}
