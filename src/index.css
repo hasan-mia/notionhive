@@ -13,9 +13,30 @@ main {
 a{
   text-decoration: none;
 }
+.font-16{
+  font-size: 16px;
+}
+.font-18{
+  font-size: 18px;
+}
+.font-24{
+  font-size: 24px;
+}
+.font-32{
+  font-size: 32px;
+}
+.font-48{
+  font-size: 48px;
+}
 .btn-orange{
   background-color: #EA4715;
   color: #fff;
+  border-radius: 5px;
+}
+.btn-back{
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
 }
 .text-white{
   color: #fff;

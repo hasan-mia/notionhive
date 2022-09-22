@@ -24,11 +24,23 @@
     color: #EA4715;
 }
 
+/* mega menu */
+.mega-item a{
+    color: #000;
+}
+.mega-item:hover a{
+    color: #EA4715;
+}
+.menu-img {
+    margin-top: -9px;
+    margin-bottom: -10px;
+}
+
 @media only screen and (min-width: 768px) {
     .navbar-expand-lg .navbar-nav .dropdown-menu {
         position: absolute;
         width: 100vw;
-        left: -37.7rem;
+        left: -38.2rem;
         border: 1px solid #c9c9c9;
         border-radius: 0;
     }
@@ -38,10 +50,10 @@
 
 .navbar-brand {
     background: #c50000;
-    padding-bottom: 0px;
-    border-radius: 5px;
+    padding-bottom: 5px;
     padding-left: 5px;
     padding-right: 5px;
+    border-radius: 5px;
 }
     .header::after {
         background-color: rgb(224, 224, 224);

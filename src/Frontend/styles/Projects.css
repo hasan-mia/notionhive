@@ -1,0 +1,11 @@
+.projects {
+    background: #5C5C5C;
+}
+.project{
+    width: 100%;
+    height: 100%;
+}
+.project img {
+    width: 280px;
+    height: 350px;
+}

@@ -1,0 +1,18 @@
+.about-img{
+    width: 488px;
+    height: 465px;
+    z-index: -1;
+}
+.control-next{
+    position: relative;
+}
+.control-next::after {
+    position: absolute;
+    content: " ";
+    right: 0;
+    top: 0;
+    width: 156px;
+    height: 323px;
+    background: #EA4715;
+    z-index: -1;
+}

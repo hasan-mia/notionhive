@@ -34,7 +34,7 @@ const Header = () => {
                             <li className="nav-item">
                                 <a className="nav-link" href="#">About</a>
                             </li>
-
+                            {/* ==mega menu== */}
                             <li className="nav-item dropdown megamenu conatiner">
                                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Products
@@ -42,32 +42,32 @@ const Header = () => {
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <div className='container'>
                                         <div className="row">
-                                            <div className="col col-md-3">
+                                            <div className="col-6 col-md-3">
                                                 <h5>By size</h5>
                                                 <ul className='list-unstyled'>
-                                                    <li className='py-2'> <a href="#" className='text-decoration-none'>Small Bifolds</a> </li>
-                                                    <li className='py-2'> <a href="#" className='text-decoration-none'>Small Bifolds</a> </li>
-                                                    <li className='py-2'> <a href="#" className='text-decoration-none'>Small Bifolds</a> </li>
+                                                    <li className='py-2 mega-item'> <a href="#" className='text-decoration-none'>Small Bifolds</a> </li>
+                                                    <li className='py-2 mega-item'> <a href="#" className='text-decoration-none'>Small Bifolds</a> </li>
+                                                    <li className='py-2 mega-item'> <a href="#" className='text-decoration-none'>Small Bifolds</a> </li>
                                                 </ul>
                                             </div>
-                                            <div className="col col-md-3">
+                                            <div className="col-6 col-md-3">
                                                 <h5>By Type</h5>
                                                 <ul className='list-unstyled'>
-                                                    <li className='py-2'> <a href="#" className='text-decoration-none'>Small Bifolds</a> </li>
-                                                    <li className='py-2'> <a href="#" className='text-decoration-none'>Small Bifolds</a> </li>
-                                                    <li className='py-2'> <a href="#" className='text-decoration-none'>Small Bifolds</a> </li>
+                                                    <li className='py-2 mega-item'> <a href="#" className='text-decoration-none'>Small Bifolds</a> </li>
+                                                    <li className='py-2 mega-item'> <a href="#" className='text-decoration-none'>Small Bifolds</a> </li>
+                                                    <li className='py-2 mega-item'> <a href="#" className='text-decoration-none'>Small Bifolds</a> </li>
                                                 </ul>
                                             </div>
-                                            <div className="col col-md-3">
+                                            <div className="col-6 col-md-3">
                                                 <h5>By Pannel</h5>
                                                 <ul className='list-unstyled'>
-                                                    <li className='py-2'> <a href="#" className='text-decoration-none'>Small Bifolds</a> </li>
-                                                    <li className='py-2'> <a href="#" className='text-decoration-none'>Small Bifolds</a> </li>
-                                                    <li className='py-2'> <a href="#" className='text-decoration-none'>Small Bifolds</a> </li>
+                                                    <li className='py-2 mega-item'> <a href="#" className='text-decoration-none'>Small Bifolds</a> </li>
+                                                    <li className='py-2 mega-item'> <a href="#" className='text-decoration-none'>Small Bifolds</a> </li>
+                                                    <li className='py-2 mega-item'> <a href="#" className='text-decoration-none'>Small Bifolds</a> </li>
                                                 </ul>
                                             </div>
                                             <div className="col col-md-3">
-                                                <img src={menuImg} className="img-fluid" alt="navar" />
+                                                <img src={menuImg} className="img-fluid menu-img" alt="navar" />
                                             </div>
                                         </div>
                                     </div>

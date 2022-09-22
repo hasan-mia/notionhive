@@ -1,3 +1,26 @@
+.carousel-caption {
+    position: absolute;
+    right: auto;
+    left: 9%;
+    text-align: left;
+    margin-bottom: 3rem;
+}
+.carousel-indicators {
+    position: absolute;
+    right:auto;
+    left: 9%;
+    justify-content: center;
+    margin-right: inherit;
+    margin-left: inherit;
+    margin-bottom: 3rem;
+}
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-top: 0px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-radius: 50px;
+}
 
 @media only screen and (min-width: 768px) {
     .banner-slider {
