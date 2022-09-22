@@ -1,22 +1,30 @@
-.about-img{
-    width: 488px;
+.about-img {
+    width: 450px;
     height: 465px;
     z-index: -1;
 }
 .control-next{
     position: relative;
 }
-/* .control-next::before {
+span.fal.fa-arrow-right {
+    font-size: 3vw;
+    right: 18px;
+}
+.fa-arrow-right::after {
     position: absolute;
-    content: url('../assets/icon/ellipse.png');
-    right: 0;
-    top: 0;
-    background: #fff;
-    z-index: 1;
-} */
+    content: "";
+    width: 30rem;
+    height: 30rem;
+    border: 2px solid #e7dada;
+    border-radius: 100%;
+    width: 13rem;
+    height: 13rem;
+    top: 35%;
+    right: -55%;
+}
 .control-next::after {
     position: absolute;
-    content: "Next";
+    content: "";
     right: 0;
     top: 0;
     width: 156px;
@@ -26,14 +34,11 @@
 }
 .counter {
     position: absolute;
-    font-size: 2rem;
+    font-size: 8rem;
     z-index: 0;
-    color: #ddd9d9;
+    color: #e3dddd;
     bottom: 0;
-    right: 1px;
-    top: 25%;
-    border: 1px solid #ddd9d9;
-    border-radius: 50%;
-    width: 55px;
-    height: 55px;
+    right: 5px;
+    top: 7%;
+    overflow: visible;
 }

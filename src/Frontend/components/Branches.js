@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/Branches.css';
+import map from '../assets/map.svg'
 
 const Branches = () => {
     return (
@@ -9,9 +10,9 @@ const Branches = () => {
                     <h1 className='text-center text-uppercase font-32 pb-2'>Our Branches</h1>
                     <p className='text-center w-75'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
                 </div>
-                <div className="row">
+                <div className="d-flex justify-content-center ">
                     <div className="map">
-
+                        <img src={map} alt="" />
                     </div>
                 </div>
             </div>
