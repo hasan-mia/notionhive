@@ -1,76 +1,99 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800&display=swap');
+
 body {
   margin: 0;
-  font-family:'Red Hat Display', sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #fff;
   font-size: 15px;
 }
+
 main {
   min-height: 100vh;
 }
-a{
+
+a {
   text-decoration: none;
 }
-.font-16{
+
+.font-16 {
   font-size: 16px;
 }
-.font-18{
+
+.font-18 {
   font-size: 18px;
 }
-.font-24{
+
+.font-20 {
+  font-size: 20px;
+}
+
+.font-24 {
   font-size: 24px;
 }
-.font-32{
+
+.font-26 {
+  font-size: 26px;
+}
+
+.font-32 {
   font-size: 32px;
 }
-.font-48{
+
+.font-48 {
   font-size: 48px;
 }
-.btn-orange{
+
+.btn-orange {
   background-color: #EA4715;
   color: #fff;
   border-radius: 5px;
 }
-.btn-back{
+
+.btn-back {
   background-color: #000;
   color: #fff;
   border-radius: 5px;
 }
-.text-white{
+
+.text-white {
   color: #fff;
 }
+
 /* =====all icon==== */
-.call{
-  display:block;
-  height:20px;
-  color:white;
-  text-decoration:none;
-  padding-left:20px;
+.call {
+  display: block;
+  height: 20px;
+  color: white;
+  text-decoration: none;
+  padding-left: 20px;
 }
-.call:before{
+
+.call:before {
   content: '';
-  background:url('../src/Frontend/assets/icon/call.svg');
-  background-size:cover;
-      position:absolute;
-  width:20px;
-  height:20px;
-  margin-left:-2vw;
+  background: url('../src/Frontend/assets/icon/call.svg');
+  background-size: cover;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin-left: -2vw;
 }
-.search{
-  display:block;
-  height:20px;
-  color:white;
-  text-decoration:none;
-  padding-left:20px;
+
+.search {
+  display: block;
+  height: 20px;
+  color: white;
+  text-decoration: none;
+  padding-left: 20px;
 }
-.search:before{
+
+.search:before {
   content: '';
-  background:url('../src/Frontend/assets/icon/search.svg');
-  background-size:cover;
-      position:absolute;
-  width:20px;
-  height:20px;
-  margin-left:-2vw;
+  background: url('../src/Frontend/assets/icon/search.svg');
+  background-size: cover;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin-left: -2vw;
 }

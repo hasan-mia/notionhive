@@ -8,7 +8,7 @@ const Blogs = () => {
         <section className='my-5'>
             <div className="container">
                 <h2 className='font-32 py-2 text-uppercase'>Blog</h2>
-                <div className="row gap-y-2">
+                <div className="row g-4">
                     <div className="col-12 col-md-4">
                         <div className="blog">
                             <img src={blog1} className="img-fluid" alt="blog" />

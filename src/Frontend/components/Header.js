@@ -1,7 +1,6 @@
 import React from 'react';
 import logo from '../assets/icon/logo.svg';
-import menuImg from '../assets/menu.svg';
-import banner from '../assets/banner.svg'
+import menuImg from '../assets/menu.png';
 import '../styles/Header.css'
 
 const Header = () => {
@@ -46,28 +45,36 @@ const Header = () => {
                                                 <h5>By size</h5>
                                                 <ul className='list-unstyled'>
                                                     <li className='py-2 mega-item'> <a href="#" className='text-decoration-none'>Small Bifolds</a> </li>
-                                                    <li className='py-2 mega-item'> <a href="#" className='text-decoration-none'>Small Bifolds</a> </li>
-                                                    <li className='py-2 mega-item'> <a href="#" className='text-decoration-none'>Small Bifolds</a> </li>
+                                                    <li className='py-2 mega-item'> <a href="#" className='text-decoration-none'>Medium Bifolds</a> </li>
+                                                    <li className='py-2 mega-item'> <a href="#" className='text-decoration-none'>Large Bifolds</a> </li>
                                                 </ul>
                                             </div>
                                             <div className="col-6 col-md-3">
                                                 <h5>By Type</h5>
                                                 <ul className='list-unstyled'>
-                                                    <li className='py-2 mega-item'> <a href="#" className='text-decoration-none'>Small Bifolds</a> </li>
-                                                    <li className='py-2 mega-item'> <a href="#" className='text-decoration-none'>Small Bifolds</a> </li>
-                                                    <li className='py-2 mega-item'> <a href="#" className='text-decoration-none'>Small Bifolds</a> </li>
+                                                    <li className='py-2 mega-item'> <a href="#" className='text-decoration-none'>Stock Bifolds</a> </li>
+                                                    <li className='py-2 mega-item'> <a href="#" className='text-decoration-none'>Corner Bifolds</a> </li>
+                                                    <li className='py-2 mega-item'> <a href="#" className='text-decoration-none'>Bespoke Bifolds</a> </li>
                                                 </ul>
                                             </div>
                                             <div className="col-6 col-md-3">
                                                 <h5>By Pannel</h5>
                                                 <ul className='list-unstyled'>
-                                                    <li className='py-2 mega-item'> <a href="#" className='text-decoration-none'>Small Bifolds</a> </li>
-                                                    <li className='py-2 mega-item'> <a href="#" className='text-decoration-none'>Small Bifolds</a> </li>
-                                                    <li className='py-2 mega-item'> <a href="#" className='text-decoration-none'>Small Bifolds</a> </li>
+                                                    <li className='py-2 mega-item'> <a href="#" className='text-decoration-none'>2 Panel Bifolds</a> </li>
+                                                    <li className='py-2 mega-item'> <a href="#" className='text-decoration-none'>3 Panel Bifolds</a> </li>
+                                                    <li className='py-2 mega-item'> <a href="#" className='text-decoration-none'>4 Panel Bifolds</a> </li>
+                                                    <li className='py-2 mega-item'> <a href="#" className='text-decoration-none'>5 Panel Bifolds</a> </li>
+                                                    <li className='py-2 mega-item'> <a href="#" className='text-decoration-none'>6 Panel Bifolds</a> </li>
+                                                    <li className='py-2 mega-item'> <a href="#" className='text-decoration-none'>7 Panel Bifolds</a> </li>
                                                 </ul>
                                             </div>
                                             <div className="col col-md-3">
                                                 <img src={menuImg} className="img-fluid menu-img" alt="navar" />
+                                                <div className='menu-content px-2 w-25'>
+                                                    <h1 className='font-26'>Bespoke Bifolds</h1>
+                                                    <p>Our most popular bifold. Perfect for thermal efficiency.</p>
+                                                    <a href="#" className='text-white'>Create your own</a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
