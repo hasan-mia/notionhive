@@ -1,0 +1,10 @@
+
+@media only screen and (min-width: 768px) {
+    .banner-slider {
+        position: relative;
+        width: 100%;
+        top: -115px;
+        z-index: -1;
+        max-height: 33rem;
+    }
+}
