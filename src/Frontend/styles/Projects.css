@@ -9,3 +9,9 @@
     width: 280px;
     height: 350px;
 }
+
+@media only screen and (max-width: 767px) {
+    .project img {
+        width: 100%;
+    }
+}

@@ -60,6 +60,13 @@ a {
 .text-white {
   color: #fff;
 }
+.bg-white {
+  background: #fff;
+}
+
+.hr-bg{
+  background: #747474;
+}
 
 /* =====all icon==== */
 .call {
