@@ -44,19 +44,22 @@ a {
 .font-48 {
   font-size: 48px;
 }
+
 .border-round {
   border: 1px solid #EA4715;
   padding: 5px;
   border-radius: 50px;
 }
+
 .btn-orange {
   background-color: #EA4715;
   color: #fff;
   border-radius: 5px;
 }
 
-.text-orange{
-  color: #EA4715;;
+.text-orange {
+  color: #EA4715;
+  ;
 }
 
 .btn-back {
@@ -68,11 +71,12 @@ a {
 .text-white {
   color: #fff;
 }
+
 .bg-white {
   background: #fff;
 }
 
-.hr-bg{
+.hr-bg {
   background: #747474;
 }
 

@@ -50,20 +50,23 @@ span.fal.fa-arrow-right {
     .carousel-control-next {
         left: 0;
     }
+
     .fa-arrow-right {
-        font-size: 6vw!important;
-        margin-bottom: 20vh!important;
+        font-size: 6vw !important;
+        margin-bottom: 20vh !important;
     }
+
     .fa-arrow-right:after {
         right: 28%;
         top: 20%;
         height: 10rem;
         width: 10rem !important;
     }
+
     .counter {
         font-size: 5rem;
         right: 14%;
         top: 23%;
     }
-    
+
 }

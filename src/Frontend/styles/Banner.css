@@ -5,15 +5,17 @@
     text-align: left;
     margin-bottom: 3rem;
 }
+
 .carousel-indicators {
     position: absolute;
-    right:auto;
+    right: auto;
     left: 9%;
     justify-content: center;
     margin-right: inherit;
     margin-left: inherit;
     margin-bottom: 3rem;
 }
+
 .carousel-indicators [data-bs-target] {
     width: 10px;
     height: 10px;
@@ -21,7 +23,9 @@
     border-bottom: 0px solid transparent;
     border-radius: 50px;
 }
-.carousel-control-next, .carousel-control-prev {
+
+.carousel-control-next,
+.carousel-control-prev {
     position: absolute;
     top: -39%;
     bottom: 0;
@@ -38,6 +42,7 @@
     opacity: .5;
     transition: opacity .15s ease;
 }
+
 @media only screen and (min-width: 768px) {
     .banner-slider {
         position: relative;
@@ -49,7 +54,9 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .carousel-control-next, .carousel-control-prev {
+
+    .carousel-control-next,
+    .carousel-control-prev {
         top: 0;
         bottom: 0;
         left: 87%;

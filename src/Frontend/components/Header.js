@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../assets/icon/logo.svg';
+import logoMobile from '../assets/icon/mobile-logo.svg';
 import menuImg from '../assets/menu.png';
 import '../styles/Header.css'
 
@@ -19,8 +20,11 @@ const Header = () => {
             <nav className="navbar navbar-expand-lg">
 
                 <div className="container">
-                    <a className="navbar-brand" href="#">
-                        <img src={logo} alt="" />
+                    <a className="navbar-brand mobile-none" href="#">
+                        <img src={logo} alt="logo" />
+                    </a>
+                    <a className="navbar-brand desk-none" href="#">
+                        <img src={logoMobile} alt="logo" />
                     </a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -36,7 +40,7 @@ const Header = () => {
                             {/* ==mega menu== */}
                             <li className="nav-item dropdown megamenu conatiner">
                                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Products
+                                    Products
                                 </a>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <div className='container'>
@@ -96,7 +100,7 @@ const Header = () => {
                             <li><a href="#" className="search"></a></li>
                             <li> <a href="#" className='text-white'>Sign in</a></li>
                         </ul>
-                        
+
                     </div>
                 </div>
             </nav>

@@ -245,7 +245,7 @@ const Branches = () => {
                                         </div>
                                         <div className='d-flex align-items-center gap-2'>
                                             <p> <i className="fas fa-phone-alt border-round text-orange border-rounded"></i> </p>
-                                            <p>+880-4-0937432 <br/> +8809370272634</p>
+                                            <p>+880-4-0937432 <br /> +8809370272634</p>
                                         </div>
                                     </div>
                                     <div className="p-4 bg-white my-2">
@@ -257,7 +257,7 @@ const Branches = () => {
                                         </div>
                                         <div className='d-flex align-items-center gap-2'>
                                             <p> <i className="fas fa-phone-alt text-orange border-rounded"></i> </p>
-                                            <p>+880-4-0937432 <br/> +8809370272634</p>
+                                            <p>+880-4-0937432 <br /> +8809370272634</p>
                                         </div>
                                     </div>
                                 </div>

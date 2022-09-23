@@ -8,14 +8,14 @@ const About = () => {
         <section className='my-5'>
             <div className='container'>
                 <div className="d-flex flex-column justify-content-center align-items-center">
-                <h1 className='text-center text-uppercase font-32 pb-2'>About us</h1>
-                <p className='text-center w-75'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                    <h1 className='text-center text-uppercase font-32 pb-2'>About us</h1>
+                    <p className='text-center w-75'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
                 </div>
                 <div className="row g-4 align-items-center">
                     <div className="col col-md-6">
                         <div id="carouselExampleControls" className="carousel slide control-next" data-bs-ride="carousel">
                             <div className="carousel-inner">
-                                
+
                                 <div className="carousel-item active">
                                     <div className='about-img'>
                                         <img src={woman} className="img-fluid" alt="about woman" />
@@ -29,7 +29,7 @@ const About = () => {
                                     </div>
                                     <p className='counter'>2</p>
                                 </div>
-                               
+
                             </div>
                             <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
                                 <span className="fal fa-arrow-right" aria-hidden="true"></span>

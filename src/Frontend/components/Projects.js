@@ -11,22 +11,39 @@ const Projects = () => {
                 <h1 className='font-16 pb-2 text-uppercase'>Projects We have done</h1>
                 <div className="row g-2">
                     <div className="col-12 col-md-4">
-                        <div className='project'>
-                        <img src={project1} className="img-fluid" alt="project" />
+                        <div class="card d-flex position-relative flex-column">
+                            <div class='imgContainer'>
+                                <img src={project1} alt="project"/>
+                            </div>
+                            <div class="content">
+                                <h2 className='font-32 project-title'>Residential</h2>
+                            </div>
                         </div>
                     </div>
-                    <div className="col-12 col-md-4">
-                        <div className='project'>
 
-                        <img src={project2} className="img-fluid" alt="project" />
-                        </div>
-                    </div>
                     <div className="col-12 col-md-4">
-                        <div className='project'>
-
-                        <img src={project3} className="img-fluid" alt="project" />
+                        <div class="card d-flex position-relative flex-column">
+                            <div class='imgContainer'>
+                                <img src={project1} alt="project"/>
+                            </div>
+                            <div class="content">
+                                <h2 className='font-32 project-title'>Residential</h2>
+                            </div>
                         </div>
                     </div>
+
+                    <div className="col-12 col-md-4">
+                        <div class="card d-flex position-relative flex-column">
+                            <div class='imgContainer'>
+                                <img src={project1} alt="project"/>
+                            </div>
+                            <div class="content">
+                                <h2 className='font-32 project-title'>Residential</h2>
+                            </div>
+                        </div>
+                    </div>
+              
+
                 </div>
             </div>
         </section>
