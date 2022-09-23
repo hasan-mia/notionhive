@@ -10,7 +10,7 @@ const Header = () => {
             {/* Top Bar */}
             <nav className="d-flex justify-content-between container mt-2 top-nav">
                 <ul className='list-unstyled d-flex'>
-                    <li className='call'> <a href="#a" className='text-decoration-none'>Call us: 783 367 2678</a> </li>
+                    <li> <a href="#a" className='text-decoration-none'> <i className="far fa-phone-alt"></i> Call us: 783 367 2678</a> </li>
                 </ul>
                 <ul className='list-unstyled d-flex gap-2'>
                     <li className='border-start border-1 ps-2'> <a href="#a" className='text-decoration-none'>Free brochure</a> </li>

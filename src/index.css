@@ -81,17 +81,17 @@ a {
 }
 
 /* =====all icon==== */
-.call {
-  display: block;
+.branches {
+  display: inline-flex;
   height: 20px;
-  color: white;
+  color: #000;
   text-decoration: none;
-  padding-left: 20px;
+  padding-left: 25px;
+  gap: 6px;
 }
-
-.call:before {
+.branches:before {
   content: '';
-  background: url('../src/Frontend/assets/icon/call.svg');
+  background: url('../src/Frontend/assets/icon/branches.svg');
   background-size: cover;
   position: absolute;
   width: 20px;
