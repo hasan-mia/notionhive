@@ -228,23 +228,23 @@ const Branches = () => {
                     </div>
 
                     {/* ======MODAL===== */}
-                    <div class="modal fade" id="exampleModalToggle" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-scrollable">
-                            <div class="modal-content modal-bg">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel"><i className='fas fa-home fa-3xl'></i> Dhaka Branches</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div className="modal fade" id="exampleModalToggle" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div className="modal-dialog modal-dialog-scrollable">
+                            <div className="modal-content modal-bg">
+                                <div className="modal-header">
+                                    <h5 className="modal-title" id="exampleModalLabel"><i className='fas fa-home fa-3xl'></i> Dhaka Branches</h5>
+                                    <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
-                                <div class="modal-body">
+                                <div className="modal-body">
                                     <div className="p-4 bg-white my-2">
                                         <h3 className='font-18'>Dhanmondi Branch </h3>
                                         <hr className='hr-bg' />
                                         <div className='d-flex align-items-center gap-2'>
-                                            <p> <i className='fas fa-home fa-3xl'></i> </p>
+                                            <p> <i className="fas fa-map-marker-alt text-orange border-round"></i> </p>
                                             <p>Green Plaza, 4th Floor Plot-B, Road-8/A Satmasjid Road, Dhanmondi, Dhaka-1209</p>
                                         </div>
                                         <div className='d-flex align-items-center gap-2'>
-                                            <p> <i className='fas fa-home fa-3xl'></i> </p>
+                                            <p> <i className="fas fa-phone-alt border-round text-orange border-rounded"></i> </p>
                                             <p>+880-4-0937432 <br/> +8809370272634</p>
                                         </div>
                                     </div>
@@ -252,11 +252,11 @@ const Branches = () => {
                                         <h3 className='font-18'>Motijheel Branch </h3>
                                         <hr className='hr-bg' />
                                         <div className='d-flex align-items-center gap-2'>
-                                            <p> <i className='fas fa-home fa-3xl'></i> </p>
+                                            <p> <i className="fas fa-map-marker-alt border-round text-orange border-rounded"></i> </p>
                                             <p>Rokon Bhaban, 2nd Floor Room # 205, 49 Motijheel C/A Dhaka-1000</p>
                                         </div>
                                         <div className='d-flex align-items-center gap-2'>
-                                            <p> <i className='fas fa-home fa-3xl'></i> </p>
+                                            <p> <i className="fas fa-phone-alt text-orange border-rounded"></i> </p>
                                             <p>+880-4-0937432 <br/> +8809370272634</p>
                                         </div>
                                     </div>

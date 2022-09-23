@@ -13,17 +13,17 @@ const About = () => {
                 </div>
                 <div className="row g-4 align-items-center">
                     <div className="col col-md-6">
-                        <div id="carouselExampleControls" class="carousel slide control-next" data-bs-ride="carousel">
-                            <div class="carousel-inner">
+                        <div id="carouselExampleControls" className="carousel slide control-next" data-bs-ride="carousel">
+                            <div className="carousel-inner">
                                 
-                                <div class="carousel-item active">
+                                <div className="carousel-item active">
                                     <div className='about-img'>
                                         <img src={woman} className="img-fluid" alt="about woman" />
                                     </div>
                                     <p className='counter'>1</p>
                                 </div>
 
-                                <div class="carousel-item">
+                                <div className="carousel-item">
                                     <div className='about-img'>
                                         <img src={man} className="img-fluid" alt="about woman" />
                                     </div>
@@ -31,9 +31,9 @@ const About = () => {
                                 </div>
                                
                             </div>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                                <span class="fal fa-arrow-right" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
+                            <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                <span className="fal fa-arrow-right" aria-hidden="true"></span>
+                                <span className="visually-hidden">Next</span>
                             </button>
                         </div>
 

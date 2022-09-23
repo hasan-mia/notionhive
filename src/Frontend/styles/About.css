@@ -3,18 +3,19 @@
     height: 465px;
     z-index: -1;
 }
-.control-next{
+
+.control-next {
     position: relative;
 }
+
 span.fal.fa-arrow-right {
     font-size: 3vw;
     right: 18px;
 }
+
 .fa-arrow-right::after {
     position: absolute;
     content: "";
-    width: 30rem;
-    height: 30rem;
     border: 2px solid #e7dada;
     border-radius: 100%;
     width: 13rem;
@@ -22,6 +23,7 @@ span.fal.fa-arrow-right {
     top: 35%;
     right: -55%;
 }
+
 .control-next::after {
     position: absolute;
     content: "";
@@ -32,6 +34,7 @@ span.fal.fa-arrow-right {
     background: #EA4715;
     z-index: -1;
 }
+
 .counter {
     position: absolute;
     font-size: 8rem;
@@ -41,4 +44,26 @@ span.fal.fa-arrow-right {
     right: 5px;
     top: 7%;
     overflow: visible;
+}
+
+@media only screen and (max-width: 767px) {
+    .carousel-control-next {
+        left: 0;
+    }
+    .fa-arrow-right {
+        font-size: 6vw!important;
+        margin-bottom: 20vh!important;
+    }
+    .fa-arrow-right:after {
+        right: 28%;
+        top: 20%;
+        height: 10rem;
+        width: 10rem !important;
+    }
+    .counter {
+        font-size: 5rem;
+        right: 14%;
+        top: 23%;
+    }
+    
 }
