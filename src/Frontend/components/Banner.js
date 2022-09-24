@@ -17,44 +17,29 @@ const Banner = () => {
                     <div className="carousel-inner">
                         <div className="carousel-item active">
                             <img src={bannerImg} className="d-block w-100" alt="..." />
-                            <div className="carousel-caption d-none d-md-block">
-                                <h1 className='text-uppercase font-48'>Modern elegance</h1>
+                            <div className="carousel-caption">
+                                <h3 className='text-uppercase font-lg-48'>Modern elegance</h3>
                                 <p>Our most popular bifold. Perfect for thermal efficiency</p>
-                                <button type='button' className='p-2 my-4 font-18 border-0 btn-orange'>Our services</button>
+                                <button type='button' className='p-2 my-lg-4 font-18 border-0 btn-orange'>Our services</button>
                             </div>
                         </div>
                         <div className="carousel-item">
                             <img src={bannerImg} className="d-block w-100" alt="..." />
-                            <div className="carousel-caption d-none d-md-block">
-                                <h1 className='text-uppercase font-48'>Modern elegance</h1>
+                            <div className="carousel-caption">
+                                <h3 className='text-uppercase font-lg-48'>Modern elegance</h3>
                                 <p>Our most popular bifold. Perfect for thermal efficiency</p>
-                                <button type='button' className='p-2 my-4 font-18 border-0 btn-orange'>Our services</button>
+                                <button type='button' className='p-2 my-lg-4 font-18 border-0 btn-orange'>Our services</button>
                             </div>
                         </div>
                         <div className="carousel-item">
                             <img src={bannerImg} className="d-block w-100" alt="..." />
-                            <div className="carousel-caption d-none d-md-block">
-                                <h1 className='text-uppercase font-48'>Modern elegance</h1>
+                            <div className="carousel-caption">
+                                <h3 className='text-uppercase font-lg-48'>Modern elegance</h3>
                                 <p>Our most popular bifold. Perfect for thermal efficiency</p>
-                                <button type='button' className='p-2 my-4 font-18 border-0 btn-orange'>Our services</button>
+                                <button type='button' className='p-2 my-lg-4 font-18 border-0 btn-orange'>Our services</button>
                             </div>
                         </div>
-                        <div className="carousel-item">
-                            <img src={bannerImg} className="d-block w-100" alt="..." />
-                            <div className="carousel-caption d-none d-md-block">
-                                <h1 className='text-uppercase font-48'>Modern elegance</h1>
-                                <p>Our most popular bifold. Perfect for thermal efficiency</p>
-                                <button type='button' className='p-2 my-4 font-18 border-0 btn-orange'>Our services</button>
-                            </div>
-                        </div>
-                        <div className="carousel-item">
-                            <img src={bannerImg} className="d-block w-100" alt="..." />
-                            <div className="carousel-caption d-none d-md-block">
-                                <h1 className='text-uppercase font-48'>Modern elegance</h1>
-                                <p>Our most popular bifold. Perfect for thermal efficiency</p>
-                                <button type='button' className='p-2 my-4 font-18 border-0 btn-orange'>Our services</button>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
             </div>

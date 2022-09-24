@@ -5,7 +5,7 @@ import blog2 from '../assets/blog_2.svg';
 
 const Blogs = () => {
     return (
-        <section className='my-5'>
+        <section className='my-3 my-lg-5'>
             <div className="container">
                 <h2 className='font-32 py-2 text-uppercase'>Blog</h2>
                 <div className="row g-4">

@@ -75,7 +75,7 @@
     }
 
     header:after {
-        top: 50px !important;
+        top: 34px !important;
     }
 
     .header::after {
@@ -98,4 +98,10 @@
         width: 100%;
     }
 
+}
+
+@media only screen and (max-width: 395px) {
+    header:after {
+        top: 50px !important;
+    }
 }

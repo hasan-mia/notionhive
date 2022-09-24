@@ -3,30 +3,27 @@
 }
 
 .container .project {
-    max-width: 300px;
-    height: 215px;
-    margin: 30px 10px;
-    padding: 20px 15px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    margin: 0 0;
+    padding: 0 0;
     transition: 0.3s ease-in-out;
-}
-
-.container .project:hover {
-    height: 450px;
 }
 
 .container .project .imgContainer {
     position: relative;
-    width: 250px;
-    height: 250px;
-    top: -50px;
-    left: 10px;
+    top: 0;
+    left: 0;
     z-index: 1;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 }
 
 .container .project .imgContainer img {
-    max-width: 100%;
+    width: 280px;
+    height: 350px;
+    border-radius: 4px;
+    transition: 0.3s ease-in-out;
+}
+
+.container .project .imgContainer:hover img {
+    height: 180px;
     border-radius: 4px;
 }
 
@@ -35,12 +32,20 @@
     margin-top: -140px;
     padding: 10px 15px;
     text-align: center;
-    color: #111;
+    color: #f7f7f7;
     visibility: hidden;
     opacity: 0;
     pointer-events: none;
     transition: 0.3s ease-in-out;
+    background: #393939;
+    padding: 0;
+    left: 0;
+    top: 40px;
+    width: 280px;
+    text-align: left;
+    padding: 0 5px;
 }
+
 
 .container .project:hover .content {
     visibility: visible;
@@ -49,14 +54,29 @@
     transition-delay: 0.3s;
 }
 
+.project-title {
+    position: absolute !important;
+    bottom: 20%;
+    left: -15%;
+    transition: 0.3s ease-in-out;
+}
+
+.container .project .imgContainer:hover .project-title {
+    display: none;
+}
+
 @media only screen and (max-width: 767px) {
-    .project img {
+    .container .project .content{
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+    .container .project .imgContainer img {
         width: 100%;
     }
 
     .project-title {
         position: absolute !important;
-        bottom: 20%;
+        bottom: 35%;
         left: 30%;
     }
 }

@@ -4,7 +4,7 @@ import map from '../assets/map.svg'
 
 const Branches = () => {
     return (
-        <section className='my-5 py-5 branches-bg'>
+        <section className='my-3 my-lg-5 py-3 py-lg-5 branches-bg'>
             <div className="container">
                 <div className="d-flex flex-column justify-content-center align-items-center">
                     <h1 className='text-center text-uppercase font-32 pb-2'>Our Branches</h1>
@@ -231,8 +231,8 @@ const Branches = () => {
                     <div className="modal fade" id="exampleModalToggle" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div className="modal-dialog modal-dialog-scrollable">
                             <div className="modal-content modal-bg">
-                                <div className="modal-header">
-                                    <h5 className="modal-title branches" id="exampleModalLabel"> Dhaka Branches</h5>
+                                <div className="modal-header branches mt-2">
+                                    <h5 className="modal-title ms-3" id="exampleModalLabel"> Dhaka Branches</h5>
                                     <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div className="modal-body">
