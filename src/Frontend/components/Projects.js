@@ -9,8 +9,8 @@ const Projects = () => {
         <section className='projects text-white'>
             <div className="container py-2 py-lg-5">
                 <h1 className='font-18 py-2 text-uppercase'>Projects We have done</h1>
-                <div className="row g-2">
-                    <div className="col-12 col-md-4">
+                <ul className="row g-2 list-unstyled">
+                    <li className="col-12 col-md-4">
                         <div className="project d-flex position-relative flex-column">
                             <div className='imgContainer'>
                                 <img src={project1} alt="project"/>
@@ -22,9 +22,9 @@ const Projects = () => {
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
                             </div>
                         </div>
-                    </div>
+                    </li>
 
-                    <div className="col-12 col-md-4">
+                    <li className="col-12 col-md-4">
                         <div className="project d-flex position-relative flex-column">
                             <div className='imgContainer'>
                                 <img src={project2} alt="project"/>
@@ -36,9 +36,9 @@ const Projects = () => {
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
                             </div>
                         </div>
-                    </div>
+                    </li>
 
-                    <div className="col-12 col-md-4">
+                    <li className="col-12 col-md-4">
                         <div className="project d-flex position-relative flex-column">
                             <div className='imgContainer'>
                                 <img src={project3} alt="project"/>
@@ -50,10 +50,10 @@ const Projects = () => {
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
                             </div>
                         </div>
-                    </div>
+                    </li>
               
 
-                </div>
+                </ul>
             </div>
         </section>
     );
