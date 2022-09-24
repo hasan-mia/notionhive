@@ -38,15 +38,8 @@
         max-height: 100%;
         max-width: 100%;
     }
-    .carousel-caption {
-        margin-bottom: 3rem;
-    }
+
 }
 
-@media only screen and (max-width: 395px) {
-    .carousel-caption {
-        bottom: 0.1rem;
-        padding-bottom: 0rem;
-    }
-}
+
 

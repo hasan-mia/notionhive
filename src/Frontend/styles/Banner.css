@@ -52,8 +52,7 @@
     }
 }
 
-@media only screen and (max-width: 768px) {
-
+@media only screen and (max-width: 767px) {
     .carousel-control-next,
     .carousel-control-prev {
         top: 0;
@@ -61,5 +60,36 @@
         left: 87%;
         width: 15%;
         opacity: .5;
+    }
+    .carousel-caption {
+        margin-bottom: 3rem;
+    }
+}
+
+@media only screen and (max-width: 395px) {
+    .carousel-caption, .carousel-indicators {
+        margin-bottom: 0rem;
+    }
+
+    .carousel-caption {
+        margin-bottom: 0rem;
+        bottom: 0.1rem;
+        padding-bottom: 0rem;
+    }
+    .about-img {
+        height: 100%;
+    }
+    .container .project {
+        margin-top: -25px;
+        margin-bottom: -25px;
+    }
+    .project-title {
+        left: 20%;
+    }
+    .container .project .content {
+        margin-bottom: 5rem;
+    }
+    .container .project:hover .content {
+        height: 50vh;
     }
 }

@@ -40,7 +40,7 @@ const About = () => {
                     </div>
                     <div className="col col-md-6 ps-6">
                         <div className="about-right">
-                            <h1 className='font-20 py-2'>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h1>
+                            <h1 className='font-20 py-lg-2'>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h1>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
                             <button className='p-2 btn-back text-uppercase border-0'>Learn More</button>
                         </div>
